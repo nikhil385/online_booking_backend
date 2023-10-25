@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 const app = express();
 const corsOptions = {
-  origin: ['https://thriving-bienenstitch-eb5012.netlify.app', 'http://localhost:3000'],
+  origin: 'http://localhost:3000',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }
 app.use(cors(corsOptions));
