@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 const app = express();
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://online-booking-frontend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }
 app.use(cors(corsOptions));
